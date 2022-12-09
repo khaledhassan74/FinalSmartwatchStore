@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css\chechout.css">
+    <title>chechout</title>
+</head>
+
+<body>
+
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <div class="modal clearfix">
+        <div class="modal-product">
+            <div class="product">
+
+                <!-- Slideshow container -->
+                <div class="product-slideshow">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="productSlides fade">
+                        <img src="images/watch.png" style="width:70%">
+                    </div>
+
+                    <div class="productSlides fade">
+                        <img src="images/watch-2.png" style="width:70%">
+                    </div>
+
+                    <br>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+
+                    </div>
+
+                </div>
+
+                <h1 class="product-name">
+                    Apple watch series2<br>2022
+                </h1>
+                <p class="product-code-name">
+                    model ‎428027 K0LCN 8685
+                </p>
+            </div>
+
+            <div class="round-shape"></div>
+        </div>
+        <div class="modal-info">
+            <div class="info">
+                <h2>Payment Information</h2>
+                <form action="congrat.html">
+                    <ul class="form-list">
+                        <li class="form-list-row">
+                            <div class="user">
+                                <label for="#">Name</label><br>
+                                <i class="fas fa-user"></i></i><input type="text" required>
+                            </div>
+                        </li>
+                        <li class="form-list-row">
+                            <div class="number">
+                                <label for="#">Card Number</label><br>
+                                <i class="far fa-credit-card"></i><input type="text" required>
+                            </div>
+                        </li>
+                        <li class="form-list-row clearfix">
+                            <div class="date">
+                                <label for="#">Expiration Date</label><br>
+                                <input class="month" type="text" required placeholder="MM">
+                                <input class="year" type="text" required placeholder="YY">
+                            </div>
+                            <div class="cvc">
+                                <label for="#">CVC</label><i class="fas fa-question-circle"></i><br>
+                                <input type="text" required placeholder="123">
+                            </div>
+                        </li>
+                        <li class="form-list-row">
+                            <div class="checkbox">
+                                <label for="checkbox">
+                                    <input id="checkbox" type="checkbox">
+                                    <span>Remember My Information</span>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                    <br>
+                    <button>Pay Now</button>
+
+
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+        <script src="js\chechout.js
+    "></script>
+</body>
+
+</html>
